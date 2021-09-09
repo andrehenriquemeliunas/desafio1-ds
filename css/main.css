@@ -1,0 +1,40 @@
+body{
+    background-color: #9699a1;
+    font-family: Arial;
+}
+h1 a{
+    text-decoration: none;
+    color: #00010D;
+}
+hr{
+    border-color: #00010d60;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 34px;
+    text-align: center;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 10px;
+}
+.nav-list li a {
+    color: #00010D;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 10px;
+    font-size: 18px;
+}
+.nav-list li a:hover{
+    background-color: #00010D;
+    color: #9699a1;
+    transition-duration: 1s;
+}
+.texto{
+    width: 100px;
+}
